@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba de botones", "prueba de botones.csproj", "{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DEA06C6-DAEA-4EE1-B498-8D111B290051}
+	EndGlobalSection
+EndGlobal

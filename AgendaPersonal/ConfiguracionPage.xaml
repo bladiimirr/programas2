@@ -1,0 +1,36 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaPersonal.ConfiguracionPage"
+             BackgroundColor="#edf2f7">
+
+    <VerticalStackLayout Padding="30" Spacing="40" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Configuración"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="#2c5282"
+               HorizontalOptions="Center" />
+
+        <HorizontalStackLayout Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+            <Switch x:Name="NotificacionesSwitch"
+                    OnColor="#2b6cb0"
+                    ThumbColor="White" />
+
+            <Label Text="Activar Notificaciones"
+                   VerticalOptions="Center"
+                   TextColor="#2d3748"
+                   FontSize="18" />
+        </HorizontalStackLayout>
+
+        <Button Text="Cambiar Tema"
+                BackgroundColor="#2b6cb0"
+                TextColor="White"
+                CornerRadius="25"
+                FontAttributes="Bold"
+                FontSize="18"
+                HeightRequest="50"
+                WidthRequest="220"
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

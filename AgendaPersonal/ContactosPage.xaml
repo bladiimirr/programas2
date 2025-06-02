@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaPersonal.ContactosPage"
+             BackgroundColor="#edf2f7">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label Text="Mis Contactos"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="#2c5282"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0" />
+
+        <CollectionView ItemsSource="{Binding Contactos}"
+                        x:Name="ContactosCollectionView"
+                        SelectionMode="Single"
+                        SelectionChanged="OnContactoSeleccionado"
+                        VerticalOptions="FillAndExpand"
+                        Margin="0,10,0,0">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,8"
+                           Padding="20"
+                           BackgroundColor="White"
+                           CornerRadius="20"
+                           BorderColor="#cbd5e0"
+                           HasShadow="True">
+
+                        <Frame.Shadow>
+                            <Shadow Brush="#000000"
+                                    Offset="0,3"
+                                    Radius="8"
+                                    Opacity="0.1" />
+                        </Frame.Shadow>
+
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="{Binding Nombre}"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   TextColor="#2b6cb0" />
+
+                            <Label Text="{Binding Telefono}"
+                                   FontSize="16"
+                                   TextColor="#4a5568" />
+
+                            <Label Text="{Binding Correo}"
+                                   FontSize="16"
+                                   TextColor="#4a5568" />
+                        </VerticalStackLayout>
+
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

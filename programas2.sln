@@ -5,17 +5,17 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programas2", "programas2.csproj", "{82130C89-8660-4043-B0ED-DC05AAC285A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoBaseDatos1", "..\..\..\Documents\programas\AccesoBaseDatos1 (1)\AccesoBaseDatos1\AccesoBaseDatos1.csproj", "{AB537FDF-C091-469A-8A01-8E1968B3CC24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoBaseDatos1", "AccesoBaseDatos1 (1)\AccesoBaseDatos1\AccesoBaseDatos1.csproj", "{AB537FDF-C091-469A-8A01-8E1968B3CC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaPersonal", "..\..\..\Documents\programas\AgendaPersonal\AgendaPersonal.csproj", "{8B2725E1-3FE3-303A-DEEA-8DF001338D1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaPersonal", "AgendaPersonal\AgendaPersonal.csproj", "{E9080C0B-6D11-E949-F65B-3F00343F59B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilos1", "..\..\..\Documents\programas\Hilos1\Hilos1.csproj", "{1DDB133C-23DC-36FD-E3A0-34200C21303E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilos1", "Hilos1\Hilos1.csproj", "{D791E5F1-66F6-3138-1CB3-19776AF79288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesGraficasinamicas", "..\..\..\Documents\programas\InterfacesGraficasinamicas-master\InterfacesGraficasinamicas.csproj", "{3E0675D5-A89A-4642-9BE5-885DCE6406D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesGraficasinamicas", "InterfacesGraficasinamicas-master\InterfacesGraficasinamicas.csproj", "{3E0675D5-A89A-4642-9BE5-885DCE6406D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaz grafica", "..\..\..\Documents\programas\interfaz grafica\interfaz grafica.csproj", "{917A93D9-2A2A-4E5A-8E0F-9D3FD11F4B74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaz grafica", "interfaz grafica\interfaz grafica.csproj", "{917A93D9-2A2A-4E5A-8E0F-9D3FD11F4B74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba de botones", "..\..\..\Documents\programas\prueba de botones\prueba de botones.csproj", "{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba de botones", "prueba de botones\prueba de botones.csproj", "{38EFF4A2-6A89-41B3-A21E-19B49FF8A55D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B2725E1-3FE3-303A-DEEA-8DF001338D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2725E1-3FE3-303A-DEEA-8DF001338D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2725E1-3FE3-303A-DEEA-8DF001338D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2725E1-3FE3-303A-DEEA-8DF001338D1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DDB133C-23DC-36FD-E3A0-34200C21303E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DDB133C-23DC-36FD-E3A0-34200C21303E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DDB133C-23DC-36FD-E3A0-34200C21303E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DDB133C-23DC-36FD-E3A0-34200C21303E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9080C0B-6D11-E949-F65B-3F00343F59B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9080C0B-6D11-E949-F65B-3F00343F59B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9080C0B-6D11-E949-F65B-3F00343F59B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9080C0B-6D11-E949-F65B-3F00343F59B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D791E5F1-66F6-3138-1CB3-19776AF79288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D791E5F1-66F6-3138-1CB3-19776AF79288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D791E5F1-66F6-3138-1CB3-19776AF79288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D791E5F1-66F6-3138-1CB3-19776AF79288}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E0675D5-A89A-4642-9BE5-885DCE6406D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E0675D5-A89A-4642-9BE5-885DCE6406D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E0675D5-A89A-4642-9BE5-885DCE6406D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
